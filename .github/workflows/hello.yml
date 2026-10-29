@@ -21,6 +21,6 @@ jobs:
   adeus: 
     steps:
     - name:: "O fim"
-      run: "Após um atempestade solar, a uma humanidade virou churrasquinho"
+      run: echo "Após um atempestade solar, a uma humanidade virou churrasquinho"
     - name: "Nova era"
       run: echo "Uma nova raça animal começa a dominar o paneta"
