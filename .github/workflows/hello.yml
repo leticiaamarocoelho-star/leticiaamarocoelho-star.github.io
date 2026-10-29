@@ -19,8 +19,9 @@ jobs:
     - name: Resposta do captcha
       run: echo "$((2 + 2))"
   adeus: 
+    runs-on: ubuntu-latest
     steps:
-    - name:: "O fim"
-      run: echo "Após um atempestade solar, a uma humanidade virou churrasquinho"
-    - name: "Nova era"
-      run: echo "Uma nova raça animal começa a dominar o paneta"
+      - name:: "O fim"
+        run: echo "Após um atempestade solar, a uma humanidade virou churrasquinho"
+      - name: "Nova era"
+        run: echo "Uma nova raça animal começa a dominar o paneta"
