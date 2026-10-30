@@ -20,4 +20,5 @@ describe("operações matemáticas", () => {
   test("não permite divisão por zero", () => {
     expect(() => dividir(10, 0)).toThrow("Não é possível dividir por zero");
   });
+
 });
