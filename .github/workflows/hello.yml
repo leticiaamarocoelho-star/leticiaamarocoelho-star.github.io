@@ -21,7 +21,7 @@ jobs:
   adeus: 
     runs-on: ubuntu-latest
     steps:
-      - name:: "O fim"
+      - name: "O fim"
         run: echo "Após um atempestade solar, a uma humanidade virou churrasquinho"
       - name: "Nova era"
         run: echo "Uma nova raça animal começa a dominar o paneta"
